@@ -22,3 +22,9 @@ int main() {
     printf("%f", result);
     return 0;
 }
+
+/*
+OUTPUT:
+13 44
+-22.557619
+*/

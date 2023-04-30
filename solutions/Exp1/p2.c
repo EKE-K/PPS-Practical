@@ -18,3 +18,9 @@ int main() {
     return 0;
 
 }
+
+/*
+OUTPUT:
+144
+2 Hours 24 Minutes
+*/

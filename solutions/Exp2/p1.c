@@ -15,7 +15,13 @@ Output Format: Print difference between the driving speed of two participants in
 int main() {
     int aravspeed, aaronspeed;
     scanf("%d %d", &aravspeed, &aaronspeed);
-    printf("%d", aravspeed-aaronspeed);
+    printf("%d", ((aravspeed > aaronspeed)?aravspeed-aaronspeed: aaronspeed-aravspeed));
     return 0;
 
 }
+
+/*
+OUTPUT:
+13 4
+9
+*/
